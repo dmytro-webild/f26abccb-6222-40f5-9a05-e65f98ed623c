@@ -2,10 +2,11 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
+import { Facebook, Instagram, Twitter, MessageCircle } from "lucide-react";
 import ContactText from '@/components/sections/contact/ContactText';
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import FeatureCardTwentyNine from '@/components/sections/feature/featureCardTwentyNine/FeatureCardTwentyNine';
-import FooterSimple from '@/components/sections/footer/FooterSimple';
+import FooterCard from '@/components/sections/footer/FooterCard';
 import HeroLogo from '@/components/sections/hero/HeroLogo';
 import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSplitTextAbout';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -159,29 +160,16 @@ export default function LandingPage() {
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterSimple
-      columns={[
-        {
-          title: "Contact",          items: [
-            { label: "123 Map St, City", href: "#" },
-            { label: "info@maprestaurant.com", href: "mailto:info@maprestaurant.com" },
-          ],
-        },
-        {
-          title: "Hours",          items: [
-            { label: "Mon-Sun: 10AM - 11PM", href: "#" },
-          ],
-        },
-        {
-          title: "Social",          items: [
-            { label: "Instagram", href: "#" },
-            { label: "Facebook", href: "#" },
-          ],
-        },
-      ]}
-      bottomLeftText="© 2024 MAP Restaurant."
-      bottomRightText="All Rights Reserved."
-    />
+      <FooterCard
+        logoText="MAP Restaurant"
+        copyrightText="© 2025 MAP Restaurant. All Rights Reserved."
+        socialLinks={[
+            { icon: Facebook, href: "https://facebook.com", ariaLabel: "Facebook" },
+            { icon: Instagram, href: "https://instagram.com", ariaLabel: "Instagram" },
+            { icon: Twitter, href: "https://twitter.com", ariaLabel: "Twitter" },
+            { icon: MessageCircle, href: "https://wa.me/1234567890", ariaLabel: "WhatsApp" }
+        ]}
+      />
   </div>
       </ReactLenis>
     </ThemeProvider>
