@@ -78,7 +78,7 @@ export default function LandingPage() {
           href: "#reservations",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/abstract-design-reflects-modern-architecture-dusk-generated-by-ai_188544-30970.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/abstract-design-reflects-modern-architecture-dusk-generated-by-ai_188544-30970.jpg?_wi=1"
     />
   </div>
 
@@ -232,7 +232,7 @@ export default function LandingPage() {
           button: {
             text: "Contact Us",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/abstract-design-reflects-modern-architecture-dusk-generated-by-ai_188544-30970.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/abstract-design-reflects-modern-architecture-dusk-generated-by-ai_188544-30970.jpg?_wi=2",
           imageAlt: "Gray concrete pillars",
         },
       ]}
