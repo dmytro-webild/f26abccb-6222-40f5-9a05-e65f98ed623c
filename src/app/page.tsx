@@ -51,7 +51,7 @@ export default function LandingPage() {
         { text: "Order Now", href: "#menu" },
         { text: "Reserve Table", href: "#reservations" },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/abstract-design-reflects-modern-architecture-dusk-generated-by-ai_188544-30970.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/abstract-design-reflects-modern-architecture-dusk-generated-by-ai_188544-30970.jpg?_wi=1"
     />
   </div>
 
@@ -107,7 +107,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       plans={[
         { id: "standard", title: "Standard Booking", price: "Free", period: "Reservation", features: ["Table for 2-4", "Priority seating"], button: { text: "Reserve Now" }, imageSrc: "http://img.b2bpic.net/free-photo/gray-concrete-pillars_181624-1500.jpg" },
-        { id: "event", title: "Special Event", price: "Custom", period: "Booking", features: ["Group menu options", "Custom arrangement"], button: { text: "Contact Us" }, imageSrc: "http://img.b2bpic.net/free-photo/abstract-design-reflects-modern-architecture-dusk-generated-by-ai_188544-30970.jpg" },
+        { id: "event", title: "Special Event", price: "Custom", period: "Booking", features: ["Group menu options", "Custom arrangement"], button: { text: "Contact Us" }, imageSrc: "http://img.b2bpic.net/free-photo/abstract-design-reflects-modern-architecture-dusk-generated-by-ai_188544-30970.jpg?_wi=2" },
       ]}
       title="Table Reservations"
       description="Book your table in advance to secure your spot for a limit-less taste experience."
